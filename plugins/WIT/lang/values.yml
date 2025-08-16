@@ -1,0 +1,66 @@
+SPLITTER: " <white>|</white> "
+
+minecraft:
+  # Prefixes
+  items_in_container: "<gold>\uD83D\uDCE6 {items}</gold> "
+  preferred_tool_not_has: "<red>{emojiByTool}</red> "
+  preferred_tool_has: "<green>{emojiByTool}</green> "
+  entity_owner: "<gray>{entityOwner}</gray> "
+  entity_is_leashed: "<green>\uD83D\uDD17</green> "
+  # Suffixes
+  farmland_hydrated: " <blue>\uD83D\uDCA7</blue>"
+  farmland_not_hydrated: " <gray>\uD83D\uDCA7</gray>"
+  redstone_power_level: " <red>● {power}</red>"
+  redstone_power_on: " <red>●</red>"
+  redstone_power_off: " <gray>●</gray>"
+  crop_age_1: " {colorByPercent}\uD83C\uDF31 {age}/{maxAge}"
+  crop_age_2: " {colorByPercent}🌿 {age}/{maxAge}"
+  crop_age_3: " {colorByPercent}🌽 {age}/{maxAge}"
+  crop_age_4: " {colorByPercent}🌽 {age}/{maxAge}"
+  honey_level: " {colorByPercent}\uD83D\uDC1D {honeyLevel}/{honeyMaxLevel}"
+  smelt_time: " {colorByPercent}⌛ {secondsRemaining}s"
+  beacon_1_effect: " {emojiByEffect1}:{primaryAmplifier}"
+  beacon_2_effect: " {emojiByEffect1}:{primaryAmplifier} {emojiByEffect2}:{secondaryAmplifier}"
+  spawner_info: " <green>\uD83E\uDDDF {spawningEntity}</green>"
+  noteblock_info: " <gold>🎹 {instrument}: {tone} {octave}</gold>"
+  entity_time_to_grow: " <yellow>\uD83D\uDC25 {secondsLeft}s</yellow>"
+  entity_health: " <red>❤ {entityHealth}/{entityMaxHealth}</red>"
+  villager_profession: " <gray>{profession}</gray>"
+  tnt_fuse_time: " <red>\uD83D\uDCA3{fuseTime}</red>"
+
+percent_color:
+  25: "<red>"
+  50: "<orange>"
+  75: "<light_green>"
+  100: "<green>"
+  default: "<gray>"
+
+effect_emoji:
+  SPEED: "<aqua>💨</aqua>"
+  HASTE: "<yellow>⛏</yellow>"
+  RESISTANCE: "<gold>🛡</gold>"
+  JUMP: "<light_green>🐇</light_green>"
+  STRENGTH: "<red>💪</red>"
+  REGENERATION: "<purple>❤</purple>"
+
+profession:
+  # Suffixes
+  ARMORER: " Armorer"
+  BUTCHER: " Butcher"
+  CARTOGRAPHER: " Cartographer"
+  CLERIC: " Cleric"
+  FARMER: " Farmer"
+  FISHERMAN: " Fisherman"
+  FLETCHER: " Fletcher"
+  LEATHER_WORKER: " Leather Worker"
+  LIBRARIAN: " Librarian"
+  MASON: " Mason"
+  NITWIT: " Nitwit"
+  SHEPHERD: " Shepherd"
+  JOBLESS: " Jobless"
+
+tool_emoji:
+  AXE: "\uD83E\uDE93"
+  PICKAXE: "⛏"
+  SHOVEL: "\uD83E\uDD44"
+  HOE: "\uD83D\uDD2A"

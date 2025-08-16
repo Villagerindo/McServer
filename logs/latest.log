@@ -1,156 +1,1198 @@
-[11:54:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:54:52] [ServerMain/INFO]: Loaded 1175 recipes
-[11:54:52] [ServerMain/INFO]: Loaded 1276 advancements
-[11:54:53] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[11:54:53] [Server thread/WARN]: ****************************
-[11:54:53] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[11:54:53] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[11:54:53] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[11:54:53] [Server thread/WARN]: ****************************
-[11:54:53] [Server thread/INFO]: Loading properties
-[11:54:53] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
-[11:54:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:54:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:54:56] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[13:02:54] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\AuraSkills-2.3.6.jar'...
+[13:02:54] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\EconomyShopGUI-6.14.4.jar'...
+[13:02:55] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\GUIShop-9.2.5.jar'...
+[13:02:55] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins\LevelledMobs-4.3.2.1 b125.jar'...
+[13:03:00] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\EconomyShopGUI-6.14.4.jar' in 6366ms.
+[13:03:00] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\PlaceholderAPI-2.11.6.jar'...
+[13:03:05] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\PlaceholderAPI-2.11.6.jar' in 4132ms.
+[13:03:05] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\PowerBoard.jar'...
+[13:03:05] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins\LevelledMobs-4.3.2.1 b125.jar' in 10076ms.
+[13:03:05] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins\Quests-5.2.5.jar'...
+[13:03:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\GUIShop-9.2.5.jar' in 10451ms.
+[13:03:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\TerraformGenerator-21.0.1.jar'...
+[13:03:06] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\AuraSkills-2.3.6.jar' in 12430ms.
+[13:03:06] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\Vault.jar'...
+[13:03:07] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\PowerBoard.jar' in 1995ms.
+[13:03:09] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\Vault.jar' in 2081ms.
+[13:03:10] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins\Quests-5.2.5.jar' in 5185ms.
+[13:03:10] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\TerraformGenerator-21.0.1.jar' in 4997ms.
+[13:03:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:03:21] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[13:03:21] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[13:03:22] [ServerMain/INFO]: No existing world data, creating new world
+[13:03:24] [ServerMain/INFO]: Loaded 1175 recipes
+[13:03:25] [ServerMain/INFO]: Loaded 1276 advancements
+[13:03:25] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[13:03:25] [Server thread/WARN]: ****************************
+[13:03:25] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[13:03:25] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[13:03:25] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[13:03:25] [Server thread/WARN]: ****************************
+[13:03:25] [Server thread/INFO]: Loading properties
+[13:03:25] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[13:03:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:03:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:03:28] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[11:54:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[11:54:58] [Server thread/INFO]: Default game type: SURVIVAL
-[11:54:58] [Server thread/INFO]: Generating keypair
-[11:54:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:54:58] [Server thread/INFO]: Using default channel type
-[11:54:58] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[11:54:58] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[11:55:01] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
-[11:55:01] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
-[11:55:08] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[11:55:08] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[11:55:08] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[11:55:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[11:55:11] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[11:55:14] [Server thread/INFO]: [floodgate] Took 3,242ms to boot Floodgate
-[11:55:14] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
-[11:55:14] [Server thread/INFO]: [Slimefun] Loading server plugin Slimefun vDev - 1160
-[11:55:14] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
-[11:55:17] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[11:55:17] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[11:55:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:55:17] [Server thread/INFO]: Preparing level "world"
-[11:55:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:55:22] [Server thread/INFO]: Time elapsed: 4410 ms
-[11:55:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:55:23] [Server thread/INFO]: Time elapsed: 462 ms
-[11:55:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:55:23] [Server thread/INFO]: Time elapsed: 358 ms
-[11:55:23] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
-[11:55:23] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.5-1.20.6 (766)
-[11:55:24] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[11:55:25] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
-[11:55:25] [Server thread/INFO]: [Slimefun] Enabling Slimefun vDev - 1160
-[11:55:25] [Server thread/INFO]: [Slimefun] Paper was detected! Performance optimizations have been applied.
-[11:55:25] [Server thread/INFO]: [Slimefun] Creating directories...
-[11:55:25] [Server thread/INFO]: [Slimefun] Loading language files...
-[11:55:25] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:55:26] [Server thread/INFO]: [Slimefun] Loaded language "en"
-[11:55:26] [Server thread/INFO]: [Slimefun] Available languages: en, de, fr, it, es, ru, pl, uk, sv, nl, da, cs, ro, bg, pt, pt-BR, hu, lv, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, fa, th, tl
-[11:55:26] [Server thread/INFO]: [Slimefun] Using legacy storage for player data
-[11:55:26] [Server thread/INFO]: [Slimefun] Enabled Analytics Service
-[11:55:26] [Server thread/INFO]: [Slimefun] Starting Auto-Updater...
-[11:55:26] [Server thread/INFO]: [Slimefun] Loading GEO-Resources...
-[11:55:27] [Server thread/INFO]: [Slimefun] Loading Tags...
-[11:55:27] [Server thread/INFO]: [Slimefun] Loading items...
-[11:55:29] [Server thread/INFO]: [Slimefun] Loading researches...
-[11:55:29] [Server thread/INFO]: [Slimefun] Loading Wiki pages...
-[11:55:29] [Server thread/INFO]: [Slimefun] Registering listeners...
-[11:55:29] [Server thread/INFO]: [Slimefun] Loading Third-Party plugin integrations...
-[11:55:29] [Server thread/INFO]: [Slimefun] Slimefun has finished loading in 4.57s
-[11:55:29] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
-[11:55:36] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[11:55:36] [Server thread/INFO]: [Geyser-Spigot] 
-[11:55:36] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b904 (git-master-ea967a0)
-[11:55:36] [Server thread/INFO]: [Geyser-Spigot] 
-[11:55:36] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[11:55:46] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[11:55:46] [Server thread/INFO]: [Geyser-Spigot] Done (9.767s)! Run /geyser help for help!
-[11:55:47] [Server thread/INFO]: Running delayed init tasks
-[11:55:47] [Server thread/INFO]: [Slimefun] Now running MetricsModule build #29
-[11:55:47] [Server thread/INFO]: [Slimefun] with a total of 19/19 chart(s)!
-[11:55:47] [Server thread/INFO]: [Slimefun] Metrics build #29 started.
-[11:55:47] [Server thread/INFO]: [Slimefun] Collecting Snapshots of all Recipes...
-[11:55:48] [Server thread/INFO]: [Slimefun] Found 1,175 Recipes!
-[11:55:48] [Server thread/INFO]: 
-[11:55:48] [Server thread/INFO]: ######################### - Slimefun vDev - 1160 - #########################
-[11:55:48] [Server thread/INFO]: 
-[11:55:48] [Server thread/INFO]: Successfully loaded 555 Items and 258 Researches
-[11:55:48] [Server thread/INFO]: ( 555 Items from Slimefun, 0 Items from 0 Addons )
-[11:55:48] [Server thread/INFO]: 
-[11:55:48] [Server thread/INFO]: Slimefun is an Open-Source project that is kept alive by a large community.
-[11:55:48] [Server thread/INFO]: Consider helping us maintain this project by contributing on GitHub!
-[11:55:48] [Server thread/INFO]: 
-[11:55:48] [Server thread/INFO]:  - Source Code:  https://github.com/Slimefun/Slimefun4
-[11:55:48] [Server thread/INFO]:  - Wiki:         https://github.com/Slimefun/Slimefun4/wiki
-[11:55:48] [Server thread/INFO]:  - Addons:       https://github.com/Slimefun/Slimefun4/wiki/Addons
-[11:55:48] [Server thread/INFO]:  - Bug Reports:  https://github.com/Slimefun/Slimefun4/issues
-[11:55:48] [Server thread/INFO]:  - Discord:      https://discord.gg/slimefun
-[11:55:48] [Server thread/INFO]: 
-[11:55:48] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
-[11:55:48] [Server thread/INFO]: [Slimefun] This may take a long time...
-[11:55:48] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
-[11:55:48] [Server thread/INFO]: [Slimefun] This may take a long time...
-[11:55:48] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
-[11:55:48] [Server thread/INFO]: [Slimefun] This may take a long time...
-[11:55:48] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
-[11:55:48] [Server thread/INFO]: [dough: protection] This may happen more than once.
-[11:55:48] [Server thread/INFO]: Done (54.852s)! For help, type "help"
-[11:55:48] [Server thread/INFO]: Timings Reset
-[11:55:48] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[11:55:49] [Craft Scheduler Thread - 6 - Slimefun/INFO]: [Slimefun] Slimefun is already up to date!
-[12:00:38] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Bedrock user with ip: /100.106.151.32 has disconnected for reason Bedrock client timed out
-[12:01:50] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username VillagerindoDPA
-[12:01:50] [localSession-7-2/INFO]: [Geyser-Spigot] VillagerindoDPA (logged in as: VillagerindoDPA) has connected to the Java server
-[12:01:51] [WebSocketConnectReadThread-182/INFO]: [floodgate] Got disconnected from the skin uploader: failed to find the given code in combination with the verify code
-[12:01:52] [Server thread/INFO]: [floodgate] Floodgate player logged in as .VillagerindoDPA joined (UUID: 00000000-0000-0000-0009-01fab8fd2a8c)
-[12:01:52] [Server thread/INFO]: .VillagerindoDPA joined the game
-[12:01:52] [Server thread/INFO]: .VillagerindoDPA[/100.106.151.32:0] logged in with entity id 78 at ([world]33.47259, 98.0, -53.91834)
-[12:14:57] [Server thread/INFO]: .VillagerindoDPA issued server command: /tp
-[12:21:48] [Geyser player thread-5-1/WARN]: [Geyser-Spigot] VillagerindoDPA exceeded 7 attempts to open a virtual inventory!
-[12:21:55] [Server thread/INFO]: .VillagerindoDPA issued server command: /bukkit
-[12:33:13] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] VillagerindoDPA has disconnected from the Java server because of Bedrock client timed out
-[12:33:13] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .VillagerindoDPA disconnected
-[12:33:13] [Server thread/INFO]: .VillagerindoDPA lost connection: Disconnected
-[12:33:13] [Server thread/INFO]: .VillagerindoDPA left the game
-[12:56:56] [Server thread/INFO]: Stopping server
-[12:56:56] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.3-SNAPSHOT
-[12:56:56] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[12:56:57] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[12:56:57] [WebSocketConnectReadThread-195/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[12:56:57] [Server thread/INFO]: [Slimefun] Disabling Slimefun vDev - 1160
-[12:56:57] [Server thread/INFO]: [Slimefun] Backed up Slimefun data to: 2025-08-16-12-56.zip
-[12:56:57] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
-[12:56:57] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[12:56:57] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
-[12:56:57] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[12:56:57] [Server thread/INFO]: Saving players
-[12:56:57] [Server thread/INFO]: Saving worlds
-[12:56:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12:56:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[12:56:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[12:56:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[12:56:58] [Server thread/INFO]: [ChunkHolderManager] Saved 157 block chunks, 86 entity chunks, 0 poi chunks in world 'world' in 0.35s
-[12:56:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:56:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[12:56:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[12:56:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[12:56:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[12:56:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[12:56:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:56:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[12:56:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[12:56:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[12:56:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[12:56:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[12:56:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:56:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[12:56:58] [Server thread/INFO]: Flushing Chunk IO
-[12:56:58] [Server thread/INFO]: Closing Thread Pool
-[12:56:58] [Server thread/INFO]: Closing Server
+[13:03:28] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:03:29] [Server thread/INFO]: Default game type: SURVIVAL
+[13:03:29] [Server thread/INFO]: Generating keypair
+[13:03:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:03:29] [Server thread/INFO]: Using default channel type
+[13:03:29] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:03:29] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:03:36] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[13:03:36] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[13:03:40] [Server thread/INFO]: [floodgate] Took 3,290ms to boot Floodgate
+[13:03:40] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
+[13:03:40] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[13:03:45] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:03:45] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[13:03:46] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:03:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[13:03:47] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[13:03:47] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[13:03:47] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
+[13:03:51] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[13:03:51] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[13:03:51] [Server thread/INFO]: [Slimefun] Loading server plugin Slimefun vDev - 1160
+[13:03:51] [Server thread/INFO]: [WIT] Loading server plugin WIT v1.4.8
+[13:03:51] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
+[13:03:51] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v21.0.1
+[13:03:51] [Server thread/INFO]: [Quests] Loading server plugin Quests v5.2.5-b544
+[13:03:51] [Server thread/INFO]: [PowerBoard] Loading server plugin PowerBoard v3.6.3
+[13:03:51] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.3.2.1 b125
+[13:03:51] [Server thread/INFO]: [LevelledMobs] Loading commands
+[13:03:52] [Server thread/INFO]: [GUIShop] Loading server plugin GUIShop v9.2.5
+[13:03:52] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.14.4
+[13:03:52] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.6
+[13:03:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:03:52] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[13:03:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[13:03:52] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[13:03:52] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[13:03:52] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v21.0.1
+[13:03:53] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[13:03:53] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[13:03:53] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.20.6, number: 20.6
+[13:03:54] [Server thread/INFO]: Preparing level "world"
+[13:03:55] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[13:03:55] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[13:04:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:04:10] [Tuinity Chunk System Worker #0/WARN]: [ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
+[13:04:31] [Server thread/INFO]: Time elapsed: 21474 ms
+[13:04:31] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[13:04:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:04:36] [Server thread/INFO]: Time elapsed: 4808 ms
+[13:04:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:04:36] [Server thread/INFO]: Time elapsed: 686 ms
+[13:04:36] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[13:04:38] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[13:04:39] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.5-1.20.6 (766)
+[13:04:39] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[13:04:39] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[13:04:39] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[13:04:40] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
+[13:04:41] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\config.yml
+[13:04:41] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[13:04:41] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\kits.yml
+[13:04:41] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[13:04:41] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[13:04:41] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[13:04:41] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[13:04:41] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[13:04:41] [Server thread/INFO]: [Essentials] Done converting random teleport config.
+[13:04:41] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\worth.yml
+[13:04:41] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[13:04:41] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\tpr.yml
+[13:04:42] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[13:04:42] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\custom_items.yml
+[13:04:42] [Server thread/INFO]: [Essentials] Using locale en_US
+[13:04:42] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:04:42] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:04:42] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[13:04:42] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[13:04:42] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
+[13:04:48] [Server thread/INFO]: [Slimefun] Enabling Slimefun vDev - 1160
+[13:04:48] [Server thread/INFO]: [Slimefun] Paper was detected! Performance optimizations have been applied.
+[13:04:48] [Server thread/INFO]: [Slimefun] Creating directories...
+[13:04:48] [Server thread/INFO]: [Slimefun] Loading language files...
+[13:04:48] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:04:49] [Server thread/INFO]: [Slimefun] Loaded language "en"
+[13:04:49] [Server thread/INFO]: [Slimefun] Available languages: en, de, fr, it, es, ru, pl, uk, sv, nl, da, cs, ro, bg, pt, pt-BR, hu, lv, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, fa, th, tl
+[13:04:49] [Server thread/INFO]: [Slimefun] Using legacy storage for player data
+[13:04:49] [Server thread/INFO]: [Slimefun] Enabled Analytics Service
+[13:04:49] [Server thread/INFO]: [Slimefun] Starting Auto-Updater...
+[13:04:49] [Server thread/INFO]: [Slimefun] Loading GEO-Resources...
+[13:04:49] [Server thread/INFO]: [Slimefun] Loading Tags...
+[13:04:49] [Server thread/INFO]: [Slimefun] Loading items...
+[13:04:51] [Server thread/INFO]: [Slimefun] Loading researches...
+[13:04:51] [Server thread/INFO]: [Slimefun] Loading Wiki pages...
+[13:04:51] [Server thread/INFO]: [Slimefun] Registering listeners...
+[13:04:51] [Server thread/INFO]: [Slimefun] Loading Third-Party plugin integrations...
+[13:04:51] [Server thread/INFO]: [Slimefun] Hooked into Plugin: PlaceholderAPI v2.11.6
+[13:04:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: slimefun [Dev - 1160]
+[13:04:51] [Server thread/INFO]: [Slimefun] Slimefun has finished loading in 3.46s
+[13:04:51] [Server thread/INFO]: [WIT] Enabling WIT v1.4.8
+[13:04:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: wit [1.4.4]
+[13:04:52] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
+[13:04:52] [Server thread/INFO]: [Quests] Enabling Quests v5.2.5-b544
+[13:04:52] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[13:05:12] [Server thread/INFO]: [Quests] Loaded language en-US. Translations via Crowdin
+[13:05:12] [Server thread/INFO]: [Quests] Loading storage implementation: YAML
+[13:05:12] [Server thread/INFO]: [PowerBoard] Enabling PowerBoard v3.6.3
+[13:05:12] [Server thread/INFO]: [PowerBoard] --------------------------------------------------
+[13:05:12] [Server thread/INFO]: [PowerBoard] --------------- Loading PowerBoard ---------------
+[13:05:12] [Server thread/INFO]: [PowerBoard]  
+[13:05:12] [Server thread/INFO]: [PowerBoard] Loading configs..
+[13:05:12] [Server thread/INFO]: [PowerBoard]  
+[13:05:12] [Server thread/INFO]: [PowerBoard] (SelfCheck) config.yml -> Loading...
+[13:05:12] [Server thread/INFO]: [PowerBoard] (SelfCheck) config.yml -> Finished!
+[13:05:12] [Server thread/INFO]: [PowerBoard]  
+[13:05:12] [Server thread/INFO]: [PowerBoard] Configs loaded!
+[13:05:12] [Server thread/INFO]: [PowerBoard]  
+[13:05:13] [Server thread/INFO]: [PowerBoard] Registered scoreboard 'scoreboard'.
+[13:05:13] [Server thread/INFO]: [PowerBoard] Registered tablist.
+[13:05:13] [Server thread/INFO]: [PowerBoard]  
+[13:05:13] [Server thread/INFO]: [PowerBoard] --------------- PowerBoard  loaded ---------------
+[13:05:13] [Server thread/INFO]: [PowerBoard] --------------------------------------------------
+[13:05:13] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.3.2.1 b125
+[13:05:13] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[13:05:13] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
+[13:05:13] [Server thread/INFO]: [LevelledMobs] Found Essentials, loading integration
+[13:05:13] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.20.6 for nametag support
+[13:05:13] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[13:05:13] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[13:05:13] [Server thread/INFO]: [LevelledMobs] File Loader: File 'settings.yml' doesn't exist, creating it now...
+[13:05:13] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[13:05:13] [Server thread/INFO]: [LevelledMobs] File Loader: File 'messages.yml' doesn't exist, creating it now...
+[13:05:13] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[13:05:13] [Server thread/INFO]: [LevelledMobs] File Loader: File 'externalplugins.yml' doesn't exist, creating it now...
+[13:05:13] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[13:05:13] [Server thread/INFO]: [LevelledMobs] File Loader: File 'rules.yml' doesn't exist, creating it now...
+[13:05:13] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
+[13:05:13] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[13:05:13] [Server thread/INFO]: [LevelledMobs] File Loader: File 'customdrops.yml' doesn't exist, creating it now...
+[13:05:13] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[13:05:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: LevelledMobs [4.3.2.1 b125]
+[13:05:13] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[13:05:13] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[13:05:13] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 829ms)
+[13:05:13] [Server thread/INFO]: [GUIShop] Enabling GUIShop v9.2.5
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.14.4
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Found incompatible component tag for current minecraft version: Did you mean 'repair_cost' instead of 'RepairCost'?
+Please change the value manually to get rid of this message
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Default shops layout compatible with 120 created at C:\Users\Administrator\mcserver\plugins\EconomyShopGUI\shops
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.20.6...
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[13:05:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[13:05:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[13:05:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 1525ms to complete
+[13:05:17] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.6
+[13:05:19] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[13:05:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: auraskills [2.3.6]
+[13:05:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: aureliumskills [2.3.6]
+[13:05:20] [Server thread/INFO]: [AuraSkills] Successfully registered hook PlaceholderAPI
+[13:05:20] [Server thread/INFO]: [AuraSkills] Successfully registered hook Slimefun
+[13:05:20] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
+[13:05:20] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 128 ms
+[13:05:20] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.20.6! Trying to find NMS support
+[13:05:20] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R4' loaded!
+[13:05:20] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[13:05:20] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[13:05:21] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[13:05:22] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[13:05:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[13:05:23] [Server thread/INFO]: [Geyser-Spigot] 
+[13:05:23] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b904 (git-master-ea967a0)
+[13:05:23] [Server thread/INFO]: [Geyser-Spigot] 
+[13:05:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[13:05:34] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[13:05:34] [Server thread/INFO]: [Geyser-Spigot] Done (11.091s)! Run /geyser help for help!
+[13:05:34] [Server thread/INFO]: Running delayed init tasks
+[13:05:34] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[13:05:35] [Server thread/INFO]: [Slimefun] Now running MetricsModule build #29
+[13:05:35] [Server thread/INFO]: [Slimefun] with a total of 19/19 chart(s)!
+[13:05:35] [Server thread/INFO]: [Slimefun] Metrics build #29 started.
+[13:05:35] [Server thread/INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[13:05:35] [Server thread/INFO]: [Slimefun] Found 1,175 Recipes!
+[13:05:35] [Server thread/INFO]: 
+[13:05:35] [Server thread/INFO]: ######################### - Slimefun vDev - 1160 - #########################
+[13:05:35] [Server thread/INFO]: 
+[13:05:35] [Server thread/INFO]: Successfully loaded 555 Items and 258 Researches
+[13:05:35] [Server thread/INFO]: ( 555 Items from Slimefun, 0 Items from 1 Addons )
+[13:05:35] [Server thread/INFO]: 
+[13:05:35] [Server thread/INFO]: Slimefun is an Open-Source project that is kept alive by a large community.
+[13:05:35] [Server thread/INFO]: Consider helping us maintain this project by contributing on GitHub!
+[13:05:35] [Server thread/INFO]: 
+[13:05:35] [Server thread/INFO]:  - Source Code:  https://github.com/Slimefun/Slimefun4
+[13:05:35] [Server thread/INFO]:  - Wiki:         https://github.com/Slimefun/Slimefun4/wiki
+[13:05:35] [Server thread/INFO]:  - Addons:       https://github.com/Slimefun/Slimefun4/wiki/Addons
+[13:05:35] [Server thread/INFO]:  - Bug Reports:  https://github.com/Slimefun/Slimefun4/issues
+[13:05:35] [Server thread/INFO]:  - Discord:      https://discord.gg/slimefun
+[13:05:35] [Server thread/INFO]: 
+[13:05:35] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
+[13:05:35] [Server thread/INFO]: [Slimefun] This may take a long time...
+[13:05:35] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[13:05:35] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world"
+[13:05:35] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
+[13:05:35] [Server thread/INFO]: [Slimefun] This may take a long time...
+[13:05:35] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[13:05:35] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_nether"
+[13:05:35] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
+[13:05:35] [Server thread/INFO]: [Slimefun] This may take a long time...
+[13:05:35] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[13:05:35] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_the_end"
+[13:05:35] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
+[13:05:35] [Server thread/INFO]: [dough: protection] This may happen more than once.
+[13:05:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: PowerBoard [3.6.3]
+[13:05:35] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[13:05:35] [Craft Scheduler Thread - 25 - Vault/INFO]: [Vault] Checking for Updates ... 
+[13:05:35] [Craft Scheduler Thread - 25 - Vault/INFO]: [Vault] No new version available
+[13:05:36] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[13:05:36] [Craft Scheduler Thread - 8 - Slimefun/INFO]: [Slimefun] Slimefun is already up to date!
+[13:05:36] [Craft Scheduler Thread - 15 - PowerBoard/INFO]: [PowerBoard] -> You are running the latest version! :)
+[13:05:36] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 308 total sources
+[13:05:36] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[13:05:36] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[13:05:36] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[13:05:37] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
+[13:05:37] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[13:05:37] [Server thread/INFO]: Done (132.251s)! For help, type "help"
+[13:05:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3121ms or 62 ticks behind
+[13:05:37] [Server thread/INFO]: Timings Reset
+[13:05:38] [Server thread/INFO]: [Quests] Loaded 4 Quest(s), 7 Action(s), 1 Condition(s) and 804 Phrase(s)
+[13:05:38] [Server thread/INFO]: Gamerule sendCommandFeedback is now set to: false
+[13:05:39] [Server thread/INFO]: [PowerBoard] Registering players...
+[13:05:39] [Server thread/INFO]: [PowerBoard] All players have been registered.
+[13:06:08] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username VillagerindoDPA
+[13:06:08] [localSession-7-2/INFO]: [Geyser-Spigot] VillagerindoDPA (logged in as: VillagerindoDPA) has connected to the Java server
+[13:06:09] [WebSocketConnectReadThread-186/INFO]: [floodgate] Got disconnected from the skin uploader: failed to find the given code in combination with the verify code
+[13:06:10] [Server thread/INFO]: [floodgate] Floodgate player logged in as .VillagerindoDPA joined (UUID: 00000000-0000-0000-0009-01fab8fd2a8c)
+[13:06:10] [Server thread/INFO]: .VillagerindoDPA joined the game
+[13:06:10] [Server thread/INFO]: .VillagerindoDPA[/100.106.151.32:0] logged in with entity id 39 at ([world]9.5, 103.0, -3.5)
+[13:06:12] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
+[13:07:48] [Server thread/INFO]: .VillagerindoDPA issued server command: /quest
+[13:07:53] [Server thread/INFO]: .VillagerindoDPA issued server command: /quests
+[13:08:09] [Server thread/INFO]: .VillagerindoDPA issued server command: /quests stats
+[13:08:26] [Server thread/INFO]: .VillagerindoDPA issued server command: /quests list
+[13:08:38] [Server thread/INFO]: .VillagerindoDPA issued server command: /quests info
+[13:09:06] [Server thread/INFO]: .VillagerindoDPA issued server command: /gamemode c
+[13:09:27] [Server thread/INFO]: .VillagerindoDPA issued server command: /shop
+[13:10:18] [Server thread/INFO]: .VillagerindoDPA issued server command: /plugins
+[13:10:33] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:10:34] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:10:34] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:10:34] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:10:35] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:10:35] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:10:36] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:10:36] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:10:37] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:10:37] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:10:44] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:10:44] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:10:45] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:10:45] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:01] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:02] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:19] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:21] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:21] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:21] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:24] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:24] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:24] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:25] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:25] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:25] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:25] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:26] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:26] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:26] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:26] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:27] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:27] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:27] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:27] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:28] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:28] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:28] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:28] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:29] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:29] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:29] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:29] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:30] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:30] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:30] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:30] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:31] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:31] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:31] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:31] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:32] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:34] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:34] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:34] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:35] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:36] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:36] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:11:41] [Server thread/WARN]: [WIT] Task #24 for WIT v1.4.8 generated an exception
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at WIT-1.4.8.jar/me.darksoul.wit.Information.default_getEntityHealth(Information.java:330) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.compatibility.MinecraftCompat.handleEntity(MinecraftCompat.java:126) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener.updateWAILA(WITListener.java:66) ~[WIT-1.4.8.jar:?]
+	at WIT-1.4.8.jar/me.darksoul.wit.WITListener$1.run(WITListener.java:51) ~[WIT-1.4.8.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1699) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:467) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1571) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1231) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:12:05] [Server thread/INFO]: .VillagerindoDPA lost connection: Disconnected
+[13:12:05] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .VillagerindoDPA disconnected
+[13:12:05] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] VillagerindoDPA has disconnected from the Java server because of Bedrock client disconnected
+[13:12:05] [Server thread/INFO]: .VillagerindoDPA left the game
+[13:23:44] [Server thread/INFO]: Stopping server
+[13:23:44] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.6
+[13:23:44] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.14.4
+[13:23:44] [Server thread/INFO]: [GUIShop] Disabling GUIShop v9.2.5
+[13:23:44] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.3.2.1 b125
+[13:23:44] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[13:23:44] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[13:23:44] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 0ms)
+[13:23:44] [Server thread/INFO]: [PowerBoard] Disabling PowerBoard v3.6.3
+[13:23:44] [Server thread/INFO]: [Quests] Disabling Quests v5.2.5-b544
+[13:23:44] [Server thread/INFO]: [Quests] Saving Quester data...
+[13:23:44] [Server thread/INFO]: [Quests] Closing storage...
+[13:23:44] [Server thread/INFO]: [TerraformGenerator] Disabling TerraformGenerator v21.0.1
+[13:23:44] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
+[13:23:44] [Craft Scheduler Thread - 20 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[13:23:44] [Craft Scheduler Thread - 22 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[13:23:44] [Server thread/INFO]: [WIT] Disabling WIT v1.4.8
+[13:23:44] [Server thread/INFO]: [Slimefun] Disabling Slimefun vDev - 1160
+[13:23:44] [Server thread/INFO]: [Slimefun] Backed up Slimefun data to: 2025-08-16-13-23.zip
+[13:23:44] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.3-SNAPSHOT
+[13:23:44] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[13:23:44] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[13:23:44] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[13:23:44] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[13:23:44] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[13:23:44] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
+[13:23:44] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[13:23:44] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[13:23:44] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[13:23:44] [Server thread/INFO]: Saving players
+[13:23:44] [Server thread/INFO]: Saving worlds
+[13:23:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:23:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:23:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:23:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:23:44] [WebSocketConnectReadThread-218/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[13:23:45] [Server thread/INFO]: [ChunkHolderManager] Saved 129 block chunks, 228 entity chunks, 0 poi chunks in world 'world' in 0.43s
+[13:23:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:23:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:23:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:23:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:23:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:23:46] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 3 entity chunks, 0 poi chunks in world 'world_nether' in 0.97s
+[13:23:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:23:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:23:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:23:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:23:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:23:48] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 1.98s
+[13:23:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:23:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:23:48] [Server thread/INFO]: Flushing Chunk IO
+[13:23:48] [Server thread/INFO]: Closing Thread Pool
+[13:23:48] [Server thread/INFO]: Closing Server

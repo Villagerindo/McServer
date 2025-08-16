@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 100.106.151.32
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1755375125108
+  login: 1755374772244
+money: '0'
+last-account-name: .VillagerindoDPA
+logoutlocation:
+  world: 33717a3f-e403-476e-ae2f-4abe0601f30f
+  world-name: world
+  x: -14.442023
+  y: 66.0
+  z: -68.66618
+  yaw: -67.77792358398438
+  pitch: 79.10546875

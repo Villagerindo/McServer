@@ -1,0 +1,14 @@
+currentQuests: []
+currentStages: []
+quest-points: 0
+completedRedoableQuests:
+- default4
+- default3
+- default1
+- default2
+completedQuestTimes:
+- 1755374906297
+- 1755374906297
+- 1755374906296
+- 1755374906297
+lastKnownName: .VillagerindoDPA

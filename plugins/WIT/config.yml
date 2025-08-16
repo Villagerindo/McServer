@@ -1,0 +1,30 @@
+# In this config file you can toggle specific features
+# more options will be added in the future
+core:
+  # These values cannot be in decimal form!
+  entitydistance: 25 # The max distance the plugin will show entity bossbar in (in blocks)
+  blockdistance: 25 # The max distance the plugin will show block bossbar in (in blocks)
+  vanilla_lang: "en_us" # The language file to use (lang files are vanilla_ + name_here + .json, in this case vanilla_en_us.json
+  mode: "normal" #the mode of the plugin (normal or hidden) (hidden mode will hide the bossbars, is useful when you want to display info somewhere else)
+
+blocks:
+  enabled: true
+  redstoneinfo: true # Show RedStone power/status
+  cropinfo: true # Show Crop age
+  beehiveinfo: true # Show Honey in BeeHive/Nest
+  smeltinfo: true # Show Smelt time
+  containerinfo: true # Show Items in a container
+  beaconinfo: true # Show Beacon effects
+  spawnerinfo: true # Show Current spawning entity in spawner
+  noteblockinfo: true # Show Instrument, tone and octave of NoteBlock
+  farmlandinfo: true # Show Whether farmland is hydrated or not
+  toolinfo: true # Show what the preferred tool to break the block is
+
+entities:
+  enabled: true
+  ageinfo: true # Show Time left for entity to become adult
+  ownerinfo: true # Show Name of the player who tamed the animal
+  leashinfo: true # Show Whether entity is leashed or not
+  healthinfo: true # Show health of entity
+  professioninfo: true # Show profession of villager
+  tntinfo: true # Show tnt time till explosion
